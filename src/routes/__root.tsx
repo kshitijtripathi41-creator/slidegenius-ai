@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "SlideStream — Turn documents into decks with AI" },
       { name: "description", content: "Upload Word or Excel files and SlideStream generates a polished, consultant-grade PowerPoint deck using Google Gemini." },
       { name: "author", content: "SlideStream" },
-      { property: "og:title", content: "SlideStream — Documents to Decks" },
-      { property: "og:description", content: "AI-powered .docx & .xlsx to PowerPoint conversion, right in your browser." },
+      { property: "og:title", content: "SlideStream — Turn documents into decks with AI" },
+      { property: "og:description", content: "Upload Word or Excel files and SlideStream generates a polished, consultant-grade PowerPoint deck using Google Gemini." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "SlideStream — Turn documents into decks with AI" },
+      { name: "twitter:description", content: "Upload Word or Excel files and SlideStream generates a polished, consultant-grade PowerPoint deck using Google Gemini." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/87b18ed9-b8e0-4245-9d87-2add4d6d89c9/id-preview-27761731--e22058bf-bdd0-4bcf-96be-165c5fb1edae.lovable.app-1778760179146.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/87b18ed9-b8e0-4245-9d87-2add4d6d89c9/id-preview-27761731--e22058bf-bdd0-4bcf-96be-165c5fb1edae.lovable.app-1778760179146.png" },
     ],
     links: [
       {
