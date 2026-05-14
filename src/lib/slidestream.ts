@@ -27,7 +27,7 @@ export async function generateSlidesFromGemini(apiKey: string, content: string):
   const trimmed = content.slice(0, 30000);
   const systemPrompt =
     "Analyze this data and return a JSON array of 5 slides. Each slide needs a 'title' and an array of 'bullets'. Use professional, high-level consultant language.";
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${encodeURIComponent(apiKey)}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(apiKey)}`;
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
